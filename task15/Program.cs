@@ -1,6 +1,6 @@
 ﻿Console.Write("Введите цифру дня недели: ");
 int num = Convert.ToInt32(Console.ReadLine());
-if(num > 7){
+if(num > 7 || num < 0){
     Console.Write("Дней недели всего 7!");
 }
 else {
