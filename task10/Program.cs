@@ -5,8 +5,8 @@ if(numStr.Length > 3 || numStr.Length < 3) {
     Console.Write("Только трехзначное число!");
 }
 else {
-    numStr = numStr.Remove(0, 1).Remove(1, 1);
-    Console.Write($"Второй цифрой является {numStr}.");
+    Console.Write($"Второй цифрой является {numStr[1]}.");
     // Или
-    // Console.Write($"Второй цифрой числа {num} является {numStr[1]}.");
+    // numStr = numStr.Remove(0, 1).Remove(1, 1);
+    // Console.Write($"Второй цифрой является {numStr}.");
 }
