@@ -1,10 +1,7 @@
 ﻿Console.Write("Введите трехзначное число: ");
 int num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 string numStr = num.ToString();
-if(numStr.Length > 3) {
-    Console.Write("Только трехзначное число!");
-}
-else if(numStr.Length < 3) {
+if(numStr.Length > 3 || numStr.Length < 3) {
     Console.Write("Только трехзначное число!");
 }
 else {
