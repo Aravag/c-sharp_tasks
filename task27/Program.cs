@@ -7,4 +7,3 @@ sum += num % 10;
 num /= 10;
 }
 Console.WriteLine($"Сумма цифр числа: {sum}");
-
