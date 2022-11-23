@@ -27,4 +27,4 @@ int Sum(int number){
 }
 
 int sum = Sum(num);
-Console.Write(sum);
+Console.Write($"Сумма цифр числа {num} равна {sum}");
