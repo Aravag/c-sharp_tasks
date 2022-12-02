@@ -12,7 +12,7 @@ else {
         Random random = new Random();
         return random.Next(from, to);
     }
-    int[] columSum = new int[colum];
+    double[] columSum = new double[colum];
     Console.WriteLine("-----------------------------------------------------");
     Console.WriteLine("Массив: ");
     Console.WriteLine("-----------------------------------------------------");
@@ -30,7 +30,7 @@ else {
         columSum[k]/=row;
     }
     Console.WriteLine("-----------------------------------------------------");
-    Console.Write($"Среднее арифметическое каждого столбца равняется: {string.Join(',', columSum)}.");
+    Console.Write($"Среднее арифметическое каждого столбца равняется: {string.Join(' ', (columSum))}.");
     Console.WriteLine();
     Console.WriteLine("-----------------------------------------------------");
 }
