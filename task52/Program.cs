@@ -27,7 +27,7 @@ else {
         Console.WriteLine();
     }
     for(int k=0; k<colum; k++) {
-        columSum[k]/=row;
+        Math.Round(columSum[k]/=row);
     }
     Console.WriteLine("-----------------------------------------------------");
     Console.Write($"Среднее арифметическое каждого столбца равняется: {string.Join(' ', (columSum))}.");
